@@ -1,0 +1,169 @@
+body {
+  background: radial-gradient(circle at center, #45108A, #3D065F, #290657);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+a:first-of-type img {
+  position: absolute;
+  top: 89%;
+  left: 55.5%;
+  transform: translate(-50%, -50%);
+  width: 3.3%;
+  z-index: 10;
+}
+
+a:last-of-type img {
+  position: absolute;
+  top: 89%;
+  left: 60.5%;
+  transform: translate(-50%, -50%);
+  width: 3.3%;
+  z-index: 10;
+}
+
+#hiago {
+  position: absolute;
+  top: 86%;
+  left: 40%;
+  transition: all 0.3s ease;
+}
+
+#gif {
+  position: absolute;
+  top: 400px;
+  left: 740px;
+  z-index: 1;
+  
+}
+
+
+.logo img{
+  position: absolute;
+  top: 300px;
+  left: 810px;
+  z-index: 1;
+  
+}
+
+
+.back img{
+  position: relative;
+  top: 990px;
+  left: 10px;
+  z-index: -2;
+}
+
+.phone img {
+  position: absolute;
+  top: -90px;
+  left: -116px;
+  z-index: 5;
+  pointer-events: none;
+}
+.black img {
+  position: absolute;
+  top: 190px;
+  left: 720px;
+  width: 250px;
+  height: 510px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+h1 {
+  font-size: 43px;
+  margin-bottom: 30px;
+  position: relative;
+  color: #271273;
+  top: 205px;
+}
+
+.index {
+  font-size: 0px;
+  margin-bottom: 40px;
+}
+
+.label {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.indicator {
+  font-size: 20px;
+  margin-top: 430px;
+  color: #888;
+  margin-left: 258px;
+}
+
+#index {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#pointer {
+    position: absolute;
+  top: 740px;
+  left: 300px;
+  transform: translate(-50%, -100%) rotate(-90deg);
+  width: 400px; /* Largura da imagem do ponteiro */
+  height: 400px; /* Altura da imagem do ponteiro */
+  z-index: 4;
+}
+
+#medidor {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -100%) rotate(360deg);
+  height: 640px; 
+  z-index: 3;
+}
+
+.frase1 {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+  padding: 400px 0px 0px;
+  position: relative;
+  top: -400px;
+  left: -20%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.tweets-container {
+  position: relative;
+
+  width: 1000px;
+  height: 1000px;
+}
+
+.tweets-wrapper {
+  position: absolute;
+  right: 25px;
+  bottom: 300px;
+  width: 260px;
+  height: 500px;
+  overflow-y: scroll;
+  z-index: 2;
+}
+
+.twitter-box {
+  width: 100%;
+  height: 100%;
+}
+.twitter-timeline {
+  margin-top: -390px !important;
+}
